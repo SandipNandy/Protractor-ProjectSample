@@ -377,7 +377,7 @@ var RecPreparerFun = require('./PreparerFun.js');
 
 //-----------------------------------Preparer Screen-------------------------------------------------
 //-----------------------------------Reviewer Screen-------------------------------------------------
-var workbook3 = XLSX.readFile('C:/Users/SandipNandi/Project/SingleTouchAutomationAvnet/ReconCore/PreparerReconAvnet.xlsx');
+var workbook3 = XLSX.readFile('../SingleTouchAutomationAvnet/ReconCore/PreparerReconAvnet.xlsx');
 //var workbook = XLSX.readFile('C:/Users/SandipNandi/Documents/PreparerReconPearson.xlsx');
 var WorksheetControlSTR = workbook3.Sheets['ControlStatements'];
 var WorksheetPrepareReviewApprove = workbook3.Sheets['MainData_Prepare,Review,Approve'];
