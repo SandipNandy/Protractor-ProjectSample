@@ -17,7 +17,7 @@
 var path = require('path');
 var XLSX = require('xlsx');
 var workbook = XLSX.readFile('C:/Users/SandipNandi/Project/SingleTouchAutomationAvnet/ReconCore/Automation_PassFail_StampingAvnet.xlsx');
-var workbook1 = XLSX.readFile('C:/Users/SandipNandi/Project/SingleTouchAutomationAvnet/ReconCore/R2R Data Template for Rec Planning_Avnet.xlsx');
+var workbook1 = XLSX.readFile('../ReconCore/R2R Data Template for Rec Planning_Avnet.xlsx');
 
 var WorksheetBDD = workbook1.Sheets['BDD_Framework'];
 var WorksheetControlstatement = workbook1.Sheets['Control_Statements'];
