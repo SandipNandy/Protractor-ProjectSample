@@ -330,7 +330,6 @@ function StepsDuringRecGroupSelection() {
 
 function CommentsAndAttachmentsR(C) {
     var fileToUpload = './Micky.jpg',
-        //C:/Users/PraveenKumar/Desktop/AutomationActionLogScripts/SanityActionPref/Micky.jpg
         absolutepath = path.resolve(__dirname, fileToUpload);
     $('input[type="file"]').sendKeys(absolutepath);
     recrevsanitypomR.Type_Messages(C);
@@ -342,7 +341,7 @@ function CommentsAndAttachmentsR(C) {
 };
 function CommentsAndAttachmentsA(C) {
     var fileToUpload = './Micky.jpg',
-        //C:/Users/PraveenKumar/Desktop/AutomationActionLogScripts/SanityActionPref/Micky.jpg
+        
         absolutepath = path.resolve(__dirname, fileToUpload);
     $('input[type="file"]').sendKeys(absolutepath);
     recappsanitypomA.Type_Messages(C);
@@ -365,7 +364,7 @@ function F3StepsOfGlobalFilter() {
 };
 //-----------------------------------Program Admin Finished------------------------------------------
 //-----------------------------------Preparer Screen-------------------------------------------------
-var workbook2 = XLSX.readFile('C:/Users/SandipNandi/Project/SingleTouchAutomationAvnet/ReconCore/PreparerReconAvnet.xlsx');
+var workbook2 = XLSX.readFile('../SingleTouchAutomationAvnet/ReconCore/PreparerReconAvnet.xlsx');
 var WorksheetControlST = workbook2.Sheets['ControlStatements'];
 var WorksheetPrepareReviewApprove = workbook.Sheets['MainData_Prepare,Review,Approve'];
 var FrowReconPreparer = WorksheetControlST['A14'].v;
