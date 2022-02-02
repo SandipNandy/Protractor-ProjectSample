@@ -389,7 +389,7 @@ var LrowReconReviewer = WorksheetControlSTR['B14'].v;
 //-----------------------------------Reviewer Screen-------------------------------------------------
 //-----------------------------------Approver Screen-------------------------------------------------
 
-var workbook4 = XLSX.readFile('C:/Users/SandipNandi/Project/SingleTouchAutomationAvnet/ReconCore/PreparerReconAvnet.xlsx');
+var workbook4 = XLSX.readFile('../SingleTouchAutomationAvnet/ReconCore/PreparerReconAvnet.xlsx');
 var WorksheetControlSTA = workbook4.Sheets['ControlStatements'];
 var WorksheetPrepareReviewApprove = workbook4.Sheets['MainData_Prepare,Review,Approve'];
 var recappsanitypomA = require('./RecApproverPOM.js');
