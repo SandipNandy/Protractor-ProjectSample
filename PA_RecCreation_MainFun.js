@@ -1,6 +1,6 @@
 //const { by, element } = require('protractor');
 var XLSX = require('xlsx');
-var workbook1 = XLSX.readFile('C:/Users/SandipNandi/Project/SingleTouchAutomationAvnet/ReconCore/R2R Data Template for Rec Planning_Avnet.xlsx');
+var workbook1 = XLSX.readFile('../SingleTouchAutomationAvnet/ReconCore/R2R Data Template for Rec Planning_Avnet.xlsx');
 var WorksheetAddPrepare = workbook1.Sheets['Add_Prepare'];
 var WorksheetAddReview = workbook1.Sheets['Add_Review'];
 var WorksheetAddApprove = workbook1.Sheets['Add_Approve'];
