@@ -1,5 +1,4 @@
 //var XLSX = require('xlsx');
-//var workbook = XLSX.readFile('C:/Users/JahnaviTunuguntla/Desktop/Rec Sanity.xlsx');
 //var WorksheetLogin = workbook.Sheets['Login'];
 let Rec_Approversanity = function () {
 
