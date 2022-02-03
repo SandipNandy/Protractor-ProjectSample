@@ -1345,7 +1345,7 @@ describe('RECON CORE', function () {
                     }
                 });
                 PFStamping['C2'].v = i;
-                XLSX.writeFile(workbook, 'C:/Users/SandipNandi/Project/SingleTouchAutomationAvnet/ReconCore/Automation_PassFail_StampingAvnet.xlsx');
+                XLSX.writeFile(workbook, '../SingleTouchAutomationAvnet/ReconCore/Automation_PassFail_StampingAvnet.xlsx');
                 var validationRecExecutionPlan = reconCreationPOM.validation_RecExePlan();
                 expect(validationRecExecutionPlan.isPresent()).toBe(true);
                 //18.Navigate back by click three horizontal lines before IBM Logo.
