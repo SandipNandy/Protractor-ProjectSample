@@ -1522,7 +1522,7 @@ describe('RECON CORE', function () {
 
                                 PFStamping['B' + i].v = 'FAIL';
                                 PFStamping['A' + i].v = text;
-                                XLSX.writeFile(workbook, 'C:/Users/SandipNandi/Project/SingleTouchAutomationAvnet/ReconCore/Automation_PassFail_StampingAvnet.xlsx');
+                                XLSX.writeFile(workbook, '../SingleTouchAutomationAvnet/ReconCore/Automation_PassFail_StampingAvnet.xlsx');
                             }
                         });
                         var clickOnPopUpGroups = reconCreationPOM.ClickOnPopUp_Groups_InManualExecution();
