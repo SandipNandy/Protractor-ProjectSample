@@ -1542,7 +1542,7 @@ describe('RECON CORE', function () {
                     else {
                         PFStamping['B' + i].v = 'FAIL';
                         PFStamping['A' + i].v = 'Blanks';
-                        XLSX.writeFile(workbook, 'C:/Users/SandipNandi/Project/SingleTouchAutomationAvnet/ReconCore/Automation_PassFail_StampingAvnet.xlsx');
+                        XLSX.writeFile(workbook, '../SingleTouchAutomationAvnet/ReconCore/Automation_PassFail_StampingAvnet.xlsx');
                     }
                     //browser.refresh();
                     //browser.sleep(15000);
