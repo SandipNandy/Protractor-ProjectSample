@@ -1516,7 +1516,7 @@ describe('RECON CORE', function () {
                             if (text == WorksheetReconExecution['B' + i].v) {
                                 PFStamping['B' + i].v = 'PASS';
                                 PFStamping['A' + i].v = text;
-                                XLSX.writeFile(workbook, 'C:/Users/SandipNandi/Project/SingleTouchAutomationAvnet/ReconCore/Automation_PassFail_StampingAvnet.xlsx');
+                                XLSX.writeFile(workbook, '../SingleTouchAutomationAvnet/ReconCore/Automation_PassFail_StampingAvnet.xlsx');
                             }
                             else {
 
