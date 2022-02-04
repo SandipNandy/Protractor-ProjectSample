@@ -37,7 +37,7 @@ exports.config = {
     },
     onPrepare: function () {
       // jasmine.getEnv().addReporter(reporter);
-       var AllureReporter = require('C:/Users/SandipNandi/AppData/Roaming/npm/node_modules/jasmine-allure-reporter');
+       var AllureReporter = require('../jasmine-allure-reporter');
        jasmine.getEnv().addReporter(new AllureReporter({
          resultsDir: 'allure-resultsReconCoreAvnet'
        }));
