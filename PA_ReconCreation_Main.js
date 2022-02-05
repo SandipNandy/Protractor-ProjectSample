@@ -293,7 +293,6 @@ function FilterRecTypesInWorkAllocation(FRTWA) {
 
 function CommentsAndAttachmentsP(C) {
     var fileToUpload = './Micky.jpg',
-        //C:/Users/PraveenKumar/Desktop/AutomationActionLogScripts/SanityActionPref/Micky.jpg
         absolutepath = path.resolve(__dirname, fileToUpload);
     $('input[type="file"]').sendKeys(absolutepath);
     RecPreparerPOM.Type_Messages(C);
